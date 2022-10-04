@@ -1,0 +1,51 @@
+/*RS*/
+.logo-RS{
+    max-width: 2em;
+}
+.author-links{
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+    flex-wrap: wrap;
+    gap: 2em;
+    list-style: none;
+}
+body{
+    display: grid;
+    grid-template-columns:auto;
+    grid-template-rows: auto auto auto;
+    
+}
+.main-links{
+    list-style: none;
+
+}
+.main-links a{
+    color: #fff;
+    font-size: 4em;
+    text-align: center;
+}
+body {
+	font-family: "Avenir Next", Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+	color: #fff;
+	background: #252323;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	width: 100vw;
+}
+h1{
+    font-family: "Epika";
+    padding: 2em 1em 4em;
+    text-align: center;
+    margin: 0.5em 0 0;
+	letter-spacing: -1px;
+	font-size: 4em;
+	line-height: 1;
+	font-weight: normal;
+}
+@font-face {
+    font-family: "Epika";
+    src: url("NT Epika Regular.otf");
+}
